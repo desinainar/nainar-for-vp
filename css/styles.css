@@ -145,13 +145,14 @@ section {
 }
 
 .btn-ghost {
-  background: transparent;
+  background: var(--navy);
   color: var(--white);
-  border: 1px solid rgba(255, 255, 255, 0.45);
+  border: 1px solid var(--navy);
 }
 
 .btn-ghost:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--navy-deep);
+  transform: translateY(-1px);
 }
 
 /* ---------- Nav ---------- */
@@ -282,12 +283,12 @@ section {
 }
 
 .hero-actions .btn-ghost {
-  color: var(--navy);
+  color: var(--white);
   border-color: var(--navy);
 }
 
 .hero-actions .btn-ghost:hover {
-  background: var(--navy);
+  background: var(--navy-deep);
   color: var(--white);
 }
 
